@@ -1,0 +1,19 @@
+{
+    "name": "gustavopendeza/idexp",
+    "authors": [
+        {
+            "name": "Gustavo S. Pendeza",
+            "email": "g.pendeza@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0",
+    	"phpmailer/phpmailer":"5.2.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}
